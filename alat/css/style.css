@@ -81,13 +81,47 @@ body{
 .card-img-top{
 	height: 200px;
 }
+.media img{
+	width: 70px;
+	height: 50px;
+}
+.media-body p{
+	
+	border: solid 1px grey;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+
+}
+.media-body a{
+	font-size: 15px;
+}
+.kolom-komentar{
+	width: 100px;
+	height: 30px;
+	border: solid 2px grey;
+	border-radius: 10px;
+	
+}
+.form-ulasan{
+	width: 320px;
+	height: auto;
+	margin: 5px;
+	background-color: none;
+	border: solid 2px grey;
+	border-radius: 20px;
+	opacity: 1.0;
+}
+.form-ulasan h4{
+	margin: 10px;
+}
 .form-komentar{
-	position: relative;
-	width: 350px;
+	width: 320px;
 	height: 400px;
 	background-color: none;
 	border: solid 2px grey;
 	border-radius: 20px;
+	opacity: 1.0;
 }
 .form-komentar-kolom{
 	width: 250px;
@@ -192,6 +226,7 @@ body{
   width: 100% !important;
   height: 100% !important;
 }
+
 .footer{
 	background: #dcdedd;
 	width: auto;
@@ -243,4 +278,5 @@ body{
 .copyright a:hover{
 	color: #000;
 }
+
 
